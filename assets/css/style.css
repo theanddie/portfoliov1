@@ -61,11 +61,23 @@ a:hover {
     text-decoration: none;
 }
 
+h1 {
+    font-family: Roboto;
+    color: #603229;
+}
+
+h2 {
+    font-family: Playfair Display;
+    font-size: 5vw;
+    color: #f26a4e;
+}
+
 h4 {
     font-size: 30px;
 }
 
 /* Buttons */ 
+
 .btn {
     min-width: 145px;
     line-height: 50px;
@@ -83,7 +95,8 @@ h4 {
 
 .btn-fill {
     color: #fff;
-    background-color: #212121;
+    background-color: #f26a4e;
+  
 }
 
 .btn-border {
@@ -211,7 +224,7 @@ html, body {
 /* HERO
 ================================================== */
 .hero { 
-    background: url(../img/hero.jpg) no-repeat center / cover; 
+    background: url(../img/hero.png) no-repeat center / cover; 
     height: 100%;
     width: 100%;
     min-height: 700px;
@@ -267,7 +280,8 @@ html, body {
 }
 /* site-section */
 .site-section {
-   padding-top: 120px;
+   padding-top: 20px;
+   padding-bottom: 80px;
 }
 
 .site-section h2,
@@ -315,10 +329,10 @@ html, body {
 /* Section: Services */
 .section-services {
     position: relative;
-    padding-top: 220px;
+    padding-top: 100px;
 }
 
-.section-services:before {
+/*.section-services:before {
     content: '';
     background: url(../img/services-bg.jpg) no-repeat fixed center / cover;
     width: 100%;
@@ -326,7 +340,7 @@ html, body {
     position: absolute;
     left: 0;
     top: 0;
-}
+}*/
 
 .overlay:after {
     content: '';
